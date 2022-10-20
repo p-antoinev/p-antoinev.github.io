@@ -1060,4 +1060,27 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
+    .social-responsiv {
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+    }
 }
+
+@media (max-width: 850px) {
+    .map-responsive {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .margin-auto {
+        margin: auto;
+    }
+
+    .margin-top {
+        margin-top: 30px;
+    }
+}
+
+
